@@ -58,6 +58,7 @@ main {
 .header-right-side {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 
 .header-navigtion {
@@ -71,4 +72,17 @@ main {
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
+}
+
+.avatar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.user-avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
 }
