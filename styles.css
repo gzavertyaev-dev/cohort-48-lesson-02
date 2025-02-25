@@ -86,3 +86,15 @@ main {
   width: 60px;
   border-radius: 50%;
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+  min-height: 500px;
+  max-height: fit-content;
+  padding: 40px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
